@@ -3,6 +3,7 @@ os: linux
 files:
    - source: /
      destination: /var/www/html
+file_exists_behaviour: OVERWRITE
 permissions:
    - object: /var/www/html
      pattern: "**"
